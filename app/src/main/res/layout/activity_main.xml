@@ -22,7 +22,13 @@
 
 <!--match parent : se exande en toda la pantalla-->
 <!--match content: se exande en toda la pantalla-->
-    <Button
+    <Button android:id="@+id/btnEnter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Presioname"
+        tools:ignore="MissingConstraints"></Button>
+
+    <Button android:id="@+id/btnAboutsUs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Presioname"
